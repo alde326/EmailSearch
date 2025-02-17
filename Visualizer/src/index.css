@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #c2c2c2;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+span {
+  color: #000000;
+}
+
+p,
+input,
+button {
+  color: white;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #9290c3 inset !important;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+input:focus {
+  outline: none;
+}
